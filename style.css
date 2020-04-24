@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+.input-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-area button {
+  width: 100px;
+}
+
+.w-value,
+.p-value,
+.job-id {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.functionalities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.functionalities button {
+  margin: 0 10px;
+}

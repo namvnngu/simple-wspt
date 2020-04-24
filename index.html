@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Find Min WP</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container">
+    <div class="page-header">
+      <h1 style="text-align: center;">Weighted Shortest Processing Time</h1>
+    </div>
+    <!-- Input Form -->
+    <div class="input-area" id="input-area">
+      <div class="job-id form-group row" id="job-id">
+        <label for="job" class="col-sm-2 col-form-label">Job ID</label>
+        <input
+          type="text"
+          class="form-control col-sm-4"
+          placeholder="Enter job ID"
+          id="job"
+          required
+        />
+      </div>
+      <div class="p-value form-group row">
+        <label for="p-value" class="col-sm-2 col-form-label">P</label>
+        <input
+          type="text"
+          class="form-control col-sm-4"
+          placeholder="Enter P"
+          id="p-value"
+          required
+        />
+      </div>
+      <div class="w-value form-group row">
+        <label for="w-value" class="col-sm-2 col-form-label">W</label>
+        <input
+          type="text"
+          class="form-control col-sm-4"
+          placeholder="Enter W"
+          id="w-value"
+          required
+        />
+      </div>
+      <div class="submit-button">
+        <button
+          type="button"
+          class="btn btn-secondary btn-sm"
+          id="submit-button"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+    <div class="functionalities">
+      <button type="button" class="btn btn-outline-secondary">Sorting</button>
+      <button type="button" class="btn btn-outline-dark">Calculate Min</button>
+    </div>
+
+    <!-- Table -->
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr class="d-flex">
+          <th class="col">ID</th>
+          <th class="col">P</th>
+          <th class="col">W</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- row -->
+      </tbody>
+    </table>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
